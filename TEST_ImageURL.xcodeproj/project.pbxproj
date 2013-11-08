@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		55CF7398182CBBEC0086BABE /* ImageSize.m in Sources */ = {isa = PBXBuildFile; fileRef = 55CF7397182CBBEC0086BABE /* ImageSize.m */; };
 		55DD2F9B17FE734100E20B77 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55DD2F9A17FE734100E20B77 /* Foundation.framework */; };
 		55DD2F9D17FE734100E20B77 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55DD2F9C17FE734100E20B77 /* CoreGraphics.framework */; };
 		55DD2F9F17FE734100E20B77 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55DD2F9E17FE734100E20B77 /* UIKit.framework */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		55CF7396182CBBEC0086BABE /* ImageSize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageSize.h; sourceTree = "<group>"; };
+		55CF7397182CBBEC0086BABE /* ImageSize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageSize.m; sourceTree = "<group>"; };
 		55DD2F9717FE734100E20B77 /* TEST_ImageURL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TEST_ImageURL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		55DD2F9A17FE734100E20B77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		55DD2F9C17FE734100E20B77 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -116,6 +119,8 @@
 		55DD2FA017FE734100E20B77 /* TEST_ImageURL */ = {
 			isa = PBXGroup;
 			children = (
+				55CF7396182CBBEC0086BABE /* ImageSize.h */,
+				55CF7397182CBBEC0086BABE /* ImageSize.m */,
 				55DD2FA917FE734100E20B77 /* AppDelegate.h */,
 				55DD2FAA17FE734100E20B77 /* AppDelegate.m */,
 				55DD2FAC17FE734100E20B77 /* Main.storyboard */,
@@ -130,9 +135,9 @@
 		55DD2FA117FE734100E20B77 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				55DD2FA617FE734100E20B77 /* main.m */,
 				55DD2FA217FE734100E20B77 /* TEST_ImageURL-Info.plist */,
 				55DD2FA317FE734100E20B77 /* InfoPlist.strings */,
-				55DD2FA617FE734100E20B77 /* main.m */,
 				55DD2FA817FE734100E20B77 /* TEST_ImageURL-Prefix.pch */,
 			);
 			name = "Supporting Files";
@@ -253,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55CF7398182CBBEC0086BABE /* ImageSize.m in Sources */,
 				55DD2FB117FE734100E20B77 /* ViewController.m in Sources */,
 				55DD2FAB17FE734100E20B77 /* AppDelegate.m in Sources */,
 				55DD2FA717FE734100E20B77 /* main.m in Sources */,
@@ -464,6 +470,7 @@
 				55DD2FCB17FE734100E20B77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		55DD2FCC17FE734100E20B77 /* Build configuration list for PBXNativeTarget "TEST_ImageURLTests" */ = {
 			isa = XCConfigurationList;
@@ -472,6 +479,7 @@
 				55DD2FCE17FE734100E20B77 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
